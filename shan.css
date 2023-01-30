@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    color: #154360;
+    font-size: 16px;
+    font-weight: normal;
+    font-family:'Roboto Slab', serif;
+}
+
+a {
+    color: #70284a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #287274;
+}
+
+.logo{
+    background: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.graficlogo{
+    padding: 5px;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.avatar {
+    width: 400px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.50);
+    margin: 20px 0px 20px 0px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+    color: #70284a;
+}
+
+.info-text {
+    margin: 40px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.bg-blue {
+    background: #F7F9F9;
+}
+
+.card {
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+    max-width: 750px;
+}
+
+.card1 {
+    padding: 1px 0px 0px 0px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+    max-width: 750px;
+}
+
+.char td{
+    padding-bottom: 2px;
+    padding-right: 40px;
+}
+
+.heat td{
+    padding-bottom: 2px;
+    padding-right: 40px;
+}
+
+.option {
+    display: flex;
+    width: 750px;
+    border: 1px;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.list1 {
+    list-style: none;
+    background: whitesmoke;
+    padding: 2px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    color: #154360;
+    font-size: 16px;
+}
+
+.skill {
+    display: flex;
+    width: 750px;
+    border: 1px;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.list1 {
+    list-style: none;
+}
+
+#skills {
+    padding: 0%;
+    list-style:circle;
+}
+
+.sk {
+    padding: 1px 20px 0px 20px;
+    border-radius: 20px;
+    max-width: 750px;
+}
+
+.sk td {
+    padding-bottom: 2px;
+    padding-right: 40px;
+}
+
+.name {
+    margin: 10px;
+    color: #154360;
+    text-align: center;
+}
+
+.tooltip {
+    cursor: pointer;
+    border-bottom: 1px dashed rgba(0,0,0,.5);
+}
+
+span{
+    cursor: pointer;
+    border-bottom: 1px dashed rgba(0,0,0,.5);
+    position: relative;
+}
+
+.help{
+    list-style: none;
+    border: none;
+    background: rgb(255, 252, 224);
+    padding: 2px 25px;
+    margin: 5px;
+    border-radius: 20px;
+    color: #154360;
+    font-size: 16px;
+    position: absolute;
+    bottom: 1rem;
+    right: -19rem;
+    height: auto;
+    width: 600px;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+input:checked ~ span .help{
+    visibility: visible;
+}
+
+input{
+    display: none;
+}
+
+.bul {
+    padding: 8px 5px 10px 30px;
+    border-radius: 20px;
+    max-width: 750px;
+    display: block;
+    background: whitesmoke;
+    margin: 5px 0px 0px 0px;
+}
+
+.bul1 {
+    font-size: 14px;
+    border: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    max-width: 750px;
+    display: block;
+    background: white;
+    margin: 5px 0px 0px 0px;
+}
+
+.bul1 li{
+    padding: 15px 0px 0px 0px;
+}
